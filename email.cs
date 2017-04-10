@@ -14,7 +14,7 @@ public void email_send()
     SmtpServer.Port = 587;
     SmtpServer.Credentials = new System.Net.NetworkCredential("your mail@gmail.com", "your password");
     SmtpServer.EnableSsl = true;
-
+    
     SmtpServer.Send(mail);
 
 }
