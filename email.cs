@@ -1,5 +1,4 @@
-public void email_send()
-{
+public void email_send() {
     MailMessage mail = new MailMessage();
     SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
     mail.From = new MailAddress("your mail@gmail.com");
@@ -16,5 +15,4 @@ public void email_send()
     SmtpServer.EnableSsl = true;
     
     SmtpServer.Send(mail);
-
 }
