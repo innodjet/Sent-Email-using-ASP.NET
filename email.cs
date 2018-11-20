@@ -15,4 +15,5 @@ public void email_send() {
     SmtpServer.EnableSsl = true;
     
     SmtpServer.Send(mail);
+    
 }
